@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.className} bg-background-1 text-content`}
+        className={`${inter.className} bg-hero-pattern bg-fixed bg-center bg-no-repeat bg-cover sm:bg-none sm:bg-background-1 text-content`}
       >
         {children}
       </body>

@@ -1,8 +1,7 @@
 'use client'
 
 import { useState } from "react";
-import { MenuIcon, CloseIcon, planto_logo, emailIcon, githubIcon, leetCodeIcon, linkedInIcon, twitterIcon, cart_bag, menuIcon, ProfileIcon } from "@/public/asstes";
-import { styles } from "@/app/styles";
+import { MenuIcon, CloseIcon, planto_logo, emailIcon, githubIcon, leetCodeIcon, linkedInIcon, twitterIcon, cart_bag, menuIcon, ProfileIcon } from "@/public/assets";
 import Image from "next/image";
 import Link from "next/link";
 import {
@@ -42,7 +41,7 @@ const Navbar = () => {
         <>
             <div>
                 <div>
-                    <nav className={`${styles.paddingX} w-full flex items-center py-4`}>
+                    <nav className={`w-full flex items-center py-4`}>
                         <div className="w-full flex justify-between items-center mx-auto">
                             <Link
                                 href="/"
@@ -113,7 +112,7 @@ const Navbar = () => {
                     {/* ---------------------------------------------------------------------------------------------- */}
                     <div
                         className={`${!toggle ? "hidden" : "block"
-                            } h-screen bg-background-2 top-0 right-0 mt-0 w-10/12 py-7 fixed`}
+                            } h-screen bg-background-2 top-0 right-0 mt-0 w-10/12 py-7 fixed z-50`}
                     >
                         <ul className="list-none flex justify-between mx-4">
                             <li className="w-6 h-6 flex justify-center items-center">
