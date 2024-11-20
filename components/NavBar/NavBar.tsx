@@ -112,7 +112,7 @@ const Navbar = () => {
                     {/* ---------------------------------------------------------------------------------------------- */}
                     <div
                         className={`${!toggle ? "hidden" : "block"
-                            } h-screen bg-background-2 top-0 right-0 mt-0 w-10/12 py-7 fixed z-50`}
+                            } h-full bg-background-2 top-0 right-0 mt-0 w-10/12 py-7 fixed z-50`}
                     >
                         <ul className="list-none flex justify-between mx-4">
                             <li className="w-6 h-6 flex justify-center items-center">
