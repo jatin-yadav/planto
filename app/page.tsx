@@ -47,13 +47,40 @@ export default function Home() {
         </div>
       </div>
       <div className="h-screen bg-transparent pt-12">
-        <p className="text-center text-4xl font-semibold">Our Trendy plants</p>
+        <div className="flex justify-center">
+          <p className="relative text-center text-2xl lg:text-4xl font-semibold py-2 px-4">
+            <span className="absolute top-0 right-0 w-10 h-10 border-t-2 border-r-2 border-green-500 rounded-tr-xl"></span>
+            <span className="absolute bottom-0 left-0 w-10 h-10 border-b-2 border-l-2 border-green-500 rounded-bl-xl"></span>
+            Our Trendy plants
+          </p>
+        </div>
       </div>
       <div className="h-screen bg-transparent pt-12">
-        <p className="text-center text-4xl font-semibold">Our Top Selling</p>
+        <div className="flex justify-center">
+          <p className="relative text-center text-2xl lg:text-4xl font-semibold py-2 px-4">
+            <span className="absolute top-0 right-0 w-10 h-10 border-t-2 border-r-2 border-green-500 rounded-tr-xl"></span>
+            <span className="absolute bottom-0 left-0 w-10 h-10 border-b-2 border-l-2 border-green-500 rounded-bl-xl"></span>
+            Our Top Selling
+          </p>
+        </div>
       </div>
       <div className="h-screen bg-transparent pt-12">
-        <p className="text-center text-4xl font-semibold">Customer Review</p>
+        <div className="flex justify-center">
+          <p className="relative text-center text-2xl lg:text-4xl font-semibold py-2 px-4">
+            <span className="absolute top-0 right-0 w-10 h-10 border-t-2 border-r-2 border-green-500 rounded-tr-xl"></span>
+            <span className="absolute bottom-0 left-0 w-10 h-10 border-b-2 border-l-2 border-green-500 rounded-bl-xl"></span>
+            Customer Review
+          </p>
+        </div>
+      </div>
+      <div className="h-screen bg-transparent pt-12">
+        <div className="flex justify-center">
+          <p className="relative text-center text-2xl lg:text-4xl font-semibold py-2 px-4">
+            <span className="absolute top-0 right-0 w-10 h-10 border-t-2 border-r-2 border-green-500 rounded-tr-xl"></span>
+            <span className="absolute bottom-0 left-0 w-10 h-10 border-b-2 border-l-2 border-green-500 rounded-bl-xl"></span>
+            Our Best
+          </p>
+        </div>
       </div>
     </section>
   );
