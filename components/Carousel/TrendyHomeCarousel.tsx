@@ -83,8 +83,8 @@ const TrendyHomeCarousel = () => {
                     </CarouselItem>
                 </CarouselContent>
                 {count > 1 ? <>
-                    <CarouselPrevious className="bg-transparent border-0" />
-                    <CarouselNext className="bg-transparent border-0" />
+                    <CarouselPrevious className="bg-transparent hover:bg-transparent hover:text-white border-0 hidden lg:block" />
+                    <CarouselNext className="bg-transparent hover:bg-transparent hover:text-white border-0 hidden lg:block" />
                 </> : <></>
                 }
             </Carousel>
