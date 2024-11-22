@@ -98,6 +98,20 @@ const Carousel = React.forwardRef<
       [scrollPrev, scrollNext]
     )
 
+    // Auto-rotation logic
+    React.useEffect(() => {
+      if (!api) return
+
+      // Set up an interval to automatically scroll to the next slide
+      const interval = setInterval(() => {
+        scrollNext() // Auto-scroll to the next slide
+      }, 3000) // Change every 3 seconds
+
+      // Clean up the interval when the component unmounts
+      return () => clearInterval(interval)
+    }, [api, scrollNext]) // Dependencies include `api` and `scrollNext`
+
+
     React.useEffect(() => {
       if (!api || !setApi) {
         return

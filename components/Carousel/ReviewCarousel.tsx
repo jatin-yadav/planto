@@ -36,10 +36,12 @@ const reviewList = [
 
 const ReviewCarousel = () => {
     return (
-        <Carousel className="w-full" opts={{
+        <Carousel className="w-full"
+         opts={{
             align: "start",
             loop: true,
-        }}>
+        }}
+        >
             <CarouselContent className="-ml-1">
                 {reviewList.map((review, index) => {
                     return (
