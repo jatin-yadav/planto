@@ -1,9 +1,13 @@
+import ReviewCarousel from "./Carousel/ReviewCarousel"
 import SectionHeader from "./SectionHeader"
 
 const CustomerReview = () => {
     return (
-        <section className="h-screen bg-transparent pt-12">
+        <section className="bg-transparent pt-12">
             <SectionHeader heading="Customer Review" />
+            <div className="py-8">
+                <ReviewCarousel />
+            </div>
         </section>
     )
 }

@@ -20,6 +20,9 @@ import Rose4 from "./plants/Rose4.png";
 import TrendyRose1 from "./plants/TrendyRose1.png";
 import TrendyRose2 from "./plants/TrendyRose2.png";
 import user1 from "./users/user1.png";
+import user2 from "./users/user2.png";
+import user3 from "./users/user3.png";
+import user4 from "./users/user4.png";
 
 export {
   MenuIcon,
@@ -43,4 +46,7 @@ export {
   TrendyRose2,
   starIcon,
   user1,
+  user2,
+  user3,
+  user4,
 };
