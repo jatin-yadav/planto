@@ -23,6 +23,9 @@ import user1 from "./users/user1.png";
 import user2 from "./users/user2.png";
 import user3 from "./users/user3.png";
 import user4 from "./users/user4.png";
+import O2plant1 from "./plants/O2plant1.png";
+import O2plant2 from "./plants/O2plant2.png";
+import O2plant3 from "./plants/O2plant3.png";
 
 export {
   MenuIcon,
@@ -49,4 +52,7 @@ export {
   user2,
   user3,
   user4,
+  O2plant1,
+  O2plant2,
+  O2plant3,
 };

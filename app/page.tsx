@@ -8,6 +8,7 @@ import TrendyPlants from "@/components/TrendyPlants";
 import HeroReview from "@/components/HeroReview";
 import TopSellingPlants from "@/components/TopSellingPlants";
 import CustomerReview from "@/components/CustomerReview";
+import BestO2Plants from "@/components/BestO2Plants";
 
 export default function Home() {
   return (
@@ -32,6 +33,7 @@ export default function Home() {
       <TrendyPlants />
       <TopSellingPlants />
       <CustomerReview />
+      <BestO2Plants />
     </section>
   );
 }
