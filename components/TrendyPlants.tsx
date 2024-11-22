@@ -2,17 +2,12 @@ import { styles } from "@/app/styles";
 import { cart_bag, TrendyRose1, TrendyRose2 } from "@/public/assets";
 import Image from "next/image";
 import { Button } from "./ui/button";
+import SectionHeader from "./SectionHeader";
 
 const TrendyPlants = () => {
     return (
         <section className="bg-transparent py-12">
-            <div className="flex justify-center">
-                <p className="relative text-center text-2xl lg:text-4xl font-semibold py-2 px-4">
-                    <span className="absolute top-0 right-0 w-10 h-10 border-t-2 border-r-2 border-green-500 rounded-tr-xl"></span>
-                    <span className="absolute bottom-0 left-0 w-10 h-10 border-b-2 border-l-2 border-green-500 rounded-bl-xl"></span>
-                    Our Trendy plants
-                </p>
-            </div>
+            <SectionHeader heading="Our Trendy plants" />
             {/* Trendy 1 */}
             <div className={`${styles.blureffect} ${styles.borderline} flex flex-col lg:flex-row justify-center items-center rounded-3xl lg:rounded-[9rem] py-2 lg:py-4 px-2 lg:px-16 mt-10 lg:mt-24 h-full lg:h-[30rem]`}>
                 <div className="w-full lg:w-1/2 flex justify-center items-center">
