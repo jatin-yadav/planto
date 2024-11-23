@@ -12,7 +12,7 @@ import BestO2Plants from "@/components/BestO2Plants";
 
 export default function Home() {
   return (
-    <section className={`${styles.paddingX} relative bg-hero-pattern bg-fixed sm:bg-local sm:bg-auto bg-top bg-no-repeat bg-cover h-screen sm:h-full`}>
+    <section className={`${styles.paddingX} relative bg-hero-pattern bg-fixed sm:bg-local sm:bg-auto bg-top bg-no-repeat bg-cover sm:h-full`}>
       <Navbar />
       <div className="py-4 h-full lg:h-96 sm:py-10 sm:grid sm:grid-cols-12">
         <div className="w-full col-span-12 lg:col-span-6">

@@ -58,7 +58,7 @@ const Navbar = () => {
                                     className="w-9 h-9 object-contain"
                                 />
                                 <span className="text-2xl text-content tracking-wider font-bold cursor-pointer">
-                                    Planto
+                                    Planto.
                                 </span>
                             </Link>
                             <ul className="list-none hidden sm:flex flex-row items-center gap-10">
