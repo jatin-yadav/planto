@@ -1,4 +1,3 @@
-import Navbar from "@/components/NavBar/NavBar";
 import { styles } from "./styles";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
@@ -13,7 +12,6 @@ import BestO2Plants from "@/components/BestO2Plants";
 export default function Home() {
   return (
     <section className={`${styles.paddingX} relative bg-hero-pattern bg-fixed sm:bg-local sm:bg-auto bg-top bg-no-repeat bg-cover sm:h-full`}>
-      <Navbar />
       <div className="py-4 h-full lg:h-96 sm:py-10 sm:grid sm:grid-cols-12">
         <div className="w-full col-span-12 lg:col-span-6">
           <h1 className="text-4xl font-bold sm:text-7xl py-2 px-0">Breath Natural</h1>
