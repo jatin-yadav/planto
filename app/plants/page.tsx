@@ -4,7 +4,6 @@ import React, { useState } from 'react'
 import { styles } from '../styles';
 import { Button } from '@/components/ui/button';
 import { topSellingPlants } from '@/public/constants';
-import TopSellingPlantCard from '@/components/TopSellingPlantCard';
 import { Label } from "@/components/ui/label"
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import { ChevronDown, ChevronRight, CircleChevronDown, CircleChevronRight } from "lucide-react"

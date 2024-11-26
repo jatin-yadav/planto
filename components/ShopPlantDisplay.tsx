@@ -1,5 +1,5 @@
 import { styles } from "@/app/styles"
-import { cart_bag, Rose1 } from "@/public/assets"
+import { cart_bag } from "@/public/assets"
 import Image, { StaticImageData } from "next/image"
 import { Button } from "./ui/button"
 
