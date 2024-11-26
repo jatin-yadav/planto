@@ -11,6 +11,7 @@ export default {
   theme: {
     extend: {
       colors: {
+        primary: "#ffffff",
         background: {
           1: "hsl(97 23% 11% / <alpha-value>)",
           2: "hsl(98 23% 23% / <alpha-value>)",
@@ -27,7 +28,8 @@ export default {
         sm: "calc(var(--radius) - 4px)",
       },
       backgroundImage: {
-        "hero-pattern": "url('../public/assets/backgrounds/backgroundimg1.png')",
+        "hero-pattern":
+          "url('../public/assets/backgrounds/backgroundimg1.png')",
       },
     },
   },
