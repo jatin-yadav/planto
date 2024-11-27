@@ -71,4 +71,35 @@ const topSellingPlants = [
   },
 ];
 
-export { navLinks, topSellingPlants };
+const topLikedPlants = [
+  {
+    plant_name: "Calathea plant",
+    plant_desc:
+      'The Calathea plant is a popular indoor plant known for its strikingly patterned, vibrant leaves. It belongs to the Marantaceae family and is sometimes called a "prayer plant" due to its unique habit of folding its leaves upward at night, resembling hands in prayer. ',
+    plant_img: Rose1,
+    plant_price: 499,
+  },
+  {
+    plant_name: "Calathea plant",
+    plant_desc:
+      'The Calathea plant is a popular indoor plant known for its strikingly patterned, vibrant leaves. It belongs to the Marantaceae family and is sometimes called a "prayer plant" due to its unique habit of folding its leaves upward at night, resembling hands in prayer. ',
+    plant_img: Rose2,
+    plant_price: 899,
+  },
+  {
+    plant_name: "Calathea plant",
+    plant_desc:
+      'The Calathea plant is a popular indoor plant known for its strikingly patterned, vibrant leaves. It belongs to the Marantaceae family and is sometimes called a "prayer plant" due to its unique habit of folding its leaves upward at night, resembling hands in prayer. ',
+    plant_img: Rose3,
+    plant_price: 699,
+  },
+  {
+    plant_name: "Calathea plant",
+    plant_desc:
+      'The Calathea plant is a popular indoor plant known for its strikingly patterned, vibrant leaves. It belongs to the Marantaceae family and is sometimes called a "prayer plant" due to its unique habit of folding its leaves upward at night, resembling hands in prayer. ',
+    plant_img: TrendyRose1,
+    plant_price: 999,
+  },
+];
+
+export { navLinks, topSellingPlants, topLikedPlants };

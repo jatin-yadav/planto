@@ -13,12 +13,12 @@ export default {
       colors: {
         primary: "#ffffff",
         background: {
-          1: "hsl(97 23% 11% / <alpha-value>)",
-          2: "hsl(98 23% 23% / <alpha-value>)",
+          "1": "hsl(97 23% 11% / <alpha-value>)",
+          "2": "hsl(98 23% 23% / <alpha-value>)",
         },
         accent: {
-          1: "hsl(0deg 0% 80% / <alpha-value>)",
-          2: "hsl(0deg 0% 65% / <alpha-value>)",
+          "1": "hsl(0deg 0% 80% / <alpha-value>)",
+          "2": "hsl(0deg 0% 65% / <alpha-value>)",
         },
         content: "#ffffff",
       },
