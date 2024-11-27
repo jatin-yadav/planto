@@ -2,6 +2,7 @@ import { styles } from "@/app/styles"
 import { cart_bag } from "@/public/assets"
 import Image, { StaticImageData } from "next/image"
 import { Button } from "./ui/button"
+import Link from "next/link"
 
 const TopSellingPlantCard = ({ plant }: {
     plant: {
@@ -25,7 +26,12 @@ const TopSellingPlantCard = ({ plant }: {
                         <Button variant={"outline"} className="bg-transparent hover:bg-transparent">
                             <Image src={cart_bag} alt="cart_bag" className="h-5 w-5 object-contain" />
                         </Button>
-                        <Button variant={"outline"} className="my-4 bg-transparent">Buy Now</Button>
+                        <Link href='/buynow'>
+                            <Button variant={"outline"} className="my-4 bg-transparent">
+                                Buy Now
+                            </Button>
+                        </Link>
+                        {/* <Button variant={"outline"} className="my-4 bg-transparent">Buy Now</Button> */}
                     </div>
                 </div>
             </div>

@@ -26,12 +26,18 @@ const Footer = () => {
           <p className="text-xs py-4">Planto is an e-commerce business offering a curated range of natural and herbal wellness products. It focuses on delivering sustainable, plant-based solutions to promote healthier lifestyles.</p>
         </div>
         <div className="col-span-12 sm:col-span-4 flex flex-col items-start sm:items-center">
-          <div>
-            <h3 className="text-xl font-semibold">Quick Links</h3>
-            <ul className="list-none text-sm py-4">
-              <li className="py-1">Home</li>
-              <li className="py-1">{`Type's of Plant's`}</li>
-              <li className="py-1">Contact</li>
+          <div className="w-full">
+            <h3 className="text-xl font-semibold w-full">Quick Links</h3>
+            <ul className="list-none text-sm py-4 w-full">
+              <li className="py-1">
+                <Link href='/'>Home</Link>
+              </li>
+              <li className="py-1">
+                <Link href='/plants'>{`Type's of Plant's`}</Link>
+              </li>
+              <li className="py-1">
+                <Link href='/contact'>Contact</Link>
+              </li>
               <li className="py-1">Privacy</li>
             </ul>
           </div>

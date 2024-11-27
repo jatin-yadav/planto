@@ -2,6 +2,7 @@ import { styles } from "@/app/styles"
 import { cart_bag } from "@/public/assets"
 import Image, { StaticImageData } from "next/image"
 import { Button } from "./ui/button"
+import Link from "next/link"
 
 const ShopPlantDisplay = ({ plant }: {
     plant: {
@@ -28,7 +29,9 @@ const ShopPlantDisplay = ({ plant }: {
                             <Image src={cart_bag} alt="cart_bag" className="h-5 w-5 object-contain" />
                         </Button>
                     </div>
-                    <Button variant={"outline"} className="my-4 bg-transparent w-full">Buy Now</Button>
+                    <Link className="w-full" href='/buynow'>
+                        <Button variant={"outline"} className="my-4 bg-transparent w-full">Buy Now</Button>
+                    </Link>
                 </div>
             </div>
         </div >

@@ -12,6 +12,7 @@ import {
     CarouselPrevious,
 } from "@/components/ui/carousel"
 import { useEffect, useState } from "react"
+import Link from "next/link"
 
 
 
@@ -49,7 +50,11 @@ const TrendyHomeCarousel = () => {
                         <h3 className="text-2xl py-2 font-bold text-center">
                             Calathea plant
                         </h3>
-                        <Button variant={"outline"} className="my-4 bg-transparent">Buy Now</Button>
+                        <Link href='/buynow'>
+                            <Button variant={"outline"} className="my-4 bg-transparent">
+                                Buy Now
+                            </Button>
+                        </Link>
                     </CarouselItem>
                     <CarouselItem className="flex flex-col items-center">
                         <div className="">
@@ -59,7 +64,11 @@ const TrendyHomeCarousel = () => {
                         <h3 className="text-2xl py-2 font-bold text-center">
                             Calathea plant
                         </h3>
-                        <Button variant={"outline"} className="my-4 bg-transparent">Buy Now</Button>
+                        <Link href='/buynow'>
+                            <Button variant={"outline"} className="my-4 bg-transparent">
+                                Buy Now
+                            </Button>
+                        </Link>
                     </CarouselItem>
                     <CarouselItem className="flex flex-col items-center">
                         <div className="">
@@ -69,7 +78,11 @@ const TrendyHomeCarousel = () => {
                         <h3 className="text-2xl py-2 font-bold text-center">
                             Calathea plant
                         </h3>
-                        <Button variant={"outline"} className="my-4 bg-transparent">Buy Now</Button>
+                        <Link href='/buynow'>
+                            <Button variant={"outline"} className="my-4 bg-transparent">
+                                Buy Now
+                            </Button>
+                        </Link>
                     </CarouselItem>
                     <CarouselItem className="flex flex-col items-center">
                         <div className="">
@@ -79,7 +92,11 @@ const TrendyHomeCarousel = () => {
                         <h3 className="text-2xl py-2 font-bold text-center">
                             Calathea plant
                         </h3>
-                        <Button variant={"outline"} className="my-4 bg-transparent">Buy Now</Button>
+                        <Link href='/buynow'>
+                            <Button variant={"outline"} className="my-4 bg-transparent">
+                                Buy Now
+                            </Button>
+                        </Link>
                     </CarouselItem>
                 </CarouselContent>
                 {count > 1 ? <>
