@@ -27,6 +27,7 @@ import O2plant1 from "./plants/O2plant1.png";
 import O2plant2 from "./plants/O2plant2.png";
 import O2plant3 from "./plants/O2plant3.png";
 import mapImg from "./mapImg/mapImg.png";
+import plant1 from "./plants/plant1.png";
 
 export {
   MenuIcon,
@@ -57,4 +58,5 @@ export {
   O2plant2,
   O2plant3,
   mapImg,
+  plant1,
 };
