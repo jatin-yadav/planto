@@ -25,6 +25,7 @@ const AboutUs = () => {
                     <p className='pb-2'>
                         At the core of our work is a passion for sustainability, love for greenery, and a belief in the power of plants to transform spaces and lives. From our hands to your home, every plant is a labor of love, patience, and a deep respect for nature—because we believe that every home deserves a touch of green magic.
                     </p>
+                    <p>contact : +91 12300456</p>
                 </div>
                 <div className=' w-full lg:w-1/2 flex justify-center items-center '>
                     <Image src={plant1} className='w-1/2' alt='plant' />
